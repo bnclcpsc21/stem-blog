@@ -1,0 +1,411 @@
+body{
+	font-family: Arial;
+	margin:80px;
+}
+*{
+	box-sizing: border-box;
+}
+#wrapper {
+	width:auto;
+	margin:0 auto;
+	padding:20px 0 10px 0;
+}
+.wrapper1{
+	position:absolute;
+	top:7%;
+	left:76%;
+	width:40%;
+	transform:translate(-50%, -50%);
+}
+.wrapper1 a {
+	padding: 10px 20px;
+	display: inline-block; 
+	color: #009D99;
+	font-size: 15px;
+	text-decoration: none;
+	margin: 15px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.box1{
+	position:relative	;
+	width: 1150px;
+	margin:auto;
+	height:1550px;
+	padding:5px;
+	align-items:center;
+	background-color: #060c21;
+	
+}
+.box1:before{
+	content: '';
+	position: absolute;
+	top:-2px;
+	left: -2px;
+	right:-2px;
+	bottom: -2px;
+	background: #fff;
+	z-index:-1; 
+}
+.box1:after{
+	content: '';
+	position: absolute;
+	top:-2px;
+	left: -2px;
+	right:-2px;
+	bottom: -2px;
+	background: #fff;
+	z-index:-2;
+	filter: blur(40px)
+}
+.box1:before,
+.box1:after{
+	background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);;
+	
+}
+.box2{
+	position:relative	;
+	width: 1150px;
+	margin:auto;
+	height:1300px;
+	padding:5px;
+	align-items:center;
+	background-color: #060c21;
+	
+}
+.box2:before{
+	content: '';
+	position: absolute;
+	top:-2px;
+	left: -2px;
+	right:-2px;
+	bottom: -2px;
+	background: #fff;
+	z-index:-1; 
+}
+.box2:after{
+	content: '';
+	position: absolute;
+	top:-2px;
+	left: -2px;
+	right:-2px;
+	bottom: -2px;
+	background: #fff;
+	z-index:-2;
+	filter: blur(40px)
+}
+.box2:before,
+.box2:after{
+	background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);;
+	
+}
+.box3{
+	position:relative	;
+	width: 1150px;
+	margin:auto;
+	height:1200px;
+	padding:5px;
+	align-items:center;
+	background-color: #060c21;
+	
+}
+.box3:before{
+	content: '';
+	position: absolute;
+	top:-2px;
+	left: -2px;
+	right:-2px;
+	bottom: -2px;
+	background: #fff;
+	z-index:-1; 
+}
+.box3:after{
+	content: '';
+	position: absolute;
+	top:-2px;
+	left: -2px;
+	right:-2px;
+	bottom: -2px;
+	background: #fff;
+	z-index:-2;
+	filter: blur(40px)
+}
+.box3:before,
+.box3:after{
+	background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);;
+	
+}
+.box4{
+	position:relative	;
+	width: 1150px;
+	margin:auto;
+	height:1450px;
+	padding:5px;
+	align-items:center;
+	background-color: #060c21;
+	
+}
+.box4:before{
+	content: '';
+	position: absolute;
+	top:-2px;
+	left: -2px;
+	right:-2px;
+	bottom: -2px;
+	background: #fff;
+	z-index:-1; 
+}
+.box4:after{
+	content: '';
+	position: absolute;
+	top:-2px;
+	left: -2px;
+	right:-2px;
+	bottom: -2px;
+	background: #fff;
+	z-index:-2;
+	filter: blur(40px)
+}
+.box4:before,
+.box4:after{
+	background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);;
+	
+}
+.box5{
+	position:relative	;
+	width: 1150px;
+	margin:auto;
+	height:1050px;
+	padding:5px;
+	align-items:center;
+	background-color: #060c21;
+	
+}
+.box5:before{
+	content: '';
+	position: absolute;
+	top:-2px;
+	left: -2px;
+	right:-2px;
+	bottom: -2px;
+	background: #fff;
+	z-index:-1; 
+}
+.box5:after{
+	content: '';
+	position: absolute;
+	top:-2px;
+	left: -2px;
+	right:-2px;
+	bottom: -2px;
+	background: #fff;
+	z-index:-2;
+	filter: blur(40px)
+}
+.box5:before,
+.box5:after{
+	background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);;
+	
+}
+.box6{
+	position:relative	;
+	width: 1150px;
+	margin:auto;
+	height:1400px;
+	padding:5px;
+	align-items:center;
+	background-color: #060c21;
+	
+}
+.box6:before{
+	content: '';
+	position: absolute;
+	top:-2px;
+	left: -2px;
+	right:-2px;
+	bottom: -2px;
+	background: #fff;
+	z-index:-1; 
+}
+.box6:after{
+	content: '';
+	position: absolute;
+	top:-2px;
+	left: -2px;
+	right:-2px;
+	bottom: -2px;
+	background: #fff;
+	z-index:-2;
+	filter: blur(40px)
+}
+.box6:before,
+.box6:after{
+	background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);;
+	
+}
+.h1{
+	font-family: Tahoma, sans-serif;
+	font-size:15px
+}	
+.content{
+	margin: 30px; 
+	box-sizing: border-box;
+	color:#fff;
+	
+}
+/*responsive */
+
+@media(max-width:800px){
+	.left-column,.right-column{
+    width: 0%;
+    padding: 0px;
+	}
+}
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.neon{
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px;
+    margin:10px;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+    margin-left:0px;
+     
+}
+ 
+.neon:hover{
+background: #03e9f4;
+color: #050801;
+box-shadow: 0 0 5px #03e9f4,
+            0 0 25px #03e9f4,
+            0 0 50px #03e9f4,
+            0 0 200px #03e9f4;
+-webkit-box-reflect:below 1px linear-gradient(transition, #0005)            
+}
+
+.neon:nth-child(2){
+    filter: hue-rotate(320deg);
+}
+.neon:nth-child(3){
+    filter: hue-rotate(250deg);
+}
+.neon:nth-child(4){
+    filter: hue-rotate(200deg);
+}
+.neon:nth-child(5){
+    filter: hue-rotate(150deg);
+}
+.neon:nth-child(6){
+    filter: hue-rotate(250deg);
+}
+.neon span{
+    position: absolute;
+    display: block;
+}
+
+.neon span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: animate1 2s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+ 
+.neon span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    animation: animate2 2s linear infinite;
+    animation-delay: 1s;
+}
+ 
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+ 
+ 
+.neon span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width:100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+    animation: animate3 2s linear infinite;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+ 
+.neon span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: animate4 2s linear infinite;
+    animation-delay:1s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
+.more:link {
+  color: #00FFFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+.more:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.more1 {
+  color: Orange;
+  text-decoration: none;
+}
+.more1:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.indent1{
+	text-indent:60px;
+}
+.indent{
+	margin:40px;
+	text-indent: 75px;
+	line-height: 1.5;
+}
+	
